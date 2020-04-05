@@ -2,9 +2,21 @@ package obiekty;
 
 public class Cat implements Animal{
 
-    int licznikZlapanychMyszy = 0;
+    private int licznikZlapanychMyszy = 0;
     public void drap(){
         //kot drapie
+    }
+
+
+
+    private String imie;
+
+    public Cat(String imie) {
+        this.imie = imie;
+    }
+
+    public String getImie() {
+        return imie;
     }
 
     public void eatMouse(){
@@ -21,5 +33,10 @@ public class Cat implements Animal{
 
     public int getLicznikZlapanychMyszy() {
         return licznikZlapanychMyszy ;
+    }
+
+    @Override
+    public void move() {
+        System.out.println("biegnę na łapkach kocich");
     }
 }

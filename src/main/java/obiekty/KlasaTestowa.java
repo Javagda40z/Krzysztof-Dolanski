@@ -9,19 +9,19 @@ public class KlasaTestowa {
         Animal zwierzeta[] = new Animal[5];
         List<Animal> listaZwierzat = new ArrayList<>();
 
-        zwierzeta[0] = new Dog();
-        zwierzeta [1] = new Cat();
-        zwierzeta [2] = new Cat();
+        zwierzeta[0] = new Dog("");
+        zwierzeta [1] = new Cat("");
+        zwierzeta [2] = new Cat("");
         zwierzeta [3] = new Cow();
         zwierzeta [4] = new Cow();
 
 
-        listaZwierzat.add(new Cat());
+        listaZwierzat.add(new Cat(""));
         listaZwierzat.add(new Cow());
         listaZwierzat.add(new Cow());
         listaZwierzat.add(new Cow());
-        listaZwierzat.add(new Dog());
-        listaZwierzat.add(new Dog());
+        listaZwierzat.add(new Dog(""));
+        listaZwierzat.add(new Dog(""));
 
 //        dajGlosDlaTablicyZwierzat(zwierzeta);
         dajGlosDlaListyZwierzat(listaZwierzat);

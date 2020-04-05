@@ -3,7 +3,7 @@ package obiekty;
 public class TestyNaKotach {
     public static void main(String[] args) {
 
-        Cat kot = new Cat();
+        Cat kot = new Cat("filemon");
 
         System.out.println(kot.getLicznikZlapanychMyszy());
         kot.eatMouse();
