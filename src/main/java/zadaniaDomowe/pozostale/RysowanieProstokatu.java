@@ -1,4 +1,4 @@
-package pozostale;
+package zadaniaDomowe.pozostale;
 
 import java.util.Scanner;
 

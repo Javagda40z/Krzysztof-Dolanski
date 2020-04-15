@@ -1,11 +1,11 @@
 package zadaniaDomowe.obiektowosc;
 
 public class Zadanie1 {
- /*   public static void main(String[] args) {
+  public static void main(String[] args) {
 
         Odcinek odcinek = new Odcinek();
 
-        int z = odcinek.dlugoscOdcinka(10, 13);
+        int z = odcinek.dlugoscOdcinka(20, 13);
 
         if(z>0) {
             for (int i = 0; i <= z; i++) {
@@ -23,5 +23,5 @@ public class Zadanie1 {
 
     public Zadanie1(int x, int y) {
     }
-    */
+
 }

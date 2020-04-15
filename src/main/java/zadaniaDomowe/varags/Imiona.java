@@ -1,4 +1,4 @@
-package varags;
+package zadaniaDomowe.varags;
 
 public class Imiona {
     public static void main(String[] args) {

@@ -4,15 +4,11 @@ public class Odcinek {
 
 
 
-
-
-/*
-    public int dlugoscOdcinka(int x, int y){
+    public static int dlugoscOdcinka(int x, int y){
         int wynik = x-y;
         return wynik;
     }
 
-*/
 
 
 }
