@@ -1,5 +1,7 @@
 package zadaniaDomowe.wyrazeniaRegularne;
 
+import javafx.css.converter.StringConverter;
+
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -38,6 +40,10 @@ public class Zad1 {
 //
 //        System.out.println(nowy);
 
+        //zad 4
+
+
+        System.out.println(checkWordOnlyLetterAnd5Long("Zdani"));
 
     }
 
@@ -58,6 +64,15 @@ public class Zad1 {
 
     }
 
+    public static boolean checkWordOnlyLetterAnd5Long(String wordChecked) {
+
+            Pattern checkRegex = Pattern.compile("[A-Za-z]{5}");
+            Matcher regexMatcher = checkRegex.matcher(wordChecked);
+            return regexMatcher.matches();
+        }
+
+
+
 
 
     public static String zmienWyraz(String staryWyraz, String wyrazUzytkownika){
@@ -68,9 +83,9 @@ public class Zad1 {
     }
 
     public static String usunSpacje(String zdanie){
-        Pattern pattern = Pattern.compile(zdanie);
-        Matcher matcher = pattern.matcher("\\[s]\\");
-        return matcher.replaceAll("");
+        Pattern pattern = Pattern.compile("\\s");
+        Matcher matcher = pattern.matcher(zdanie);
+        return matcher.replaceAll(" ");
     }
 }
 
