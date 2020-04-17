@@ -16,10 +16,12 @@ public class ZadaniaDaty {
         //zadanie2
         int asd = LocalDate.now().getDayOfYear();
         System.out.println(asd);
-        daysFromYearStart();
-    }
 
-    public static void daysFromYearStart(){
+        
+//        daysFromYearStart();
+//    }
+//
+//    public static void daysFromYearStart(){
 
 
 
